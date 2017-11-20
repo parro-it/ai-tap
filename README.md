@@ -17,7 +17,7 @@ description of the example
 ```js
 import $package_var from '$package_name';
 
-for (const item of {$package_var}()) {
+for (const item of $package_var()) {
   yield item;
 };
 ```
