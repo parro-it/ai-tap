@@ -12,8 +12,26 @@
     "doc": "documentation readme index.js --section=API"
   },
   "engines": { "node": ">9" },
-  "keywords": [],
-  "tonicExampleFilename": "example.js",
+  "keywords": [
+    "ai-fun",
+    "ai",
+    "promise",
+    "concat",
+    "collection",
+    "list",
+    "array",
+    "iterable",
+    "async-iterator",
+    "async-iterable",
+    "asynciterator",
+    "asynciterable",
+    "iterator",
+    "async",
+    "await",
+    "functional",
+    "functions",
+    "stream"
+  ],
   "@std/esm": {
     "esm": "js",
     "cjs": true
