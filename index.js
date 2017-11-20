@@ -1,3 +1,5 @@
-export default function $package_var() {
-  return 42;
+export default async function* $package_var(data) {
+  for (const item of data) {
+    yield item;
+  }
 }

@@ -5,19 +5,21 @@
 
 > $package_description
 
-background details relevant to understanding what this module does
 
-## Async iterable fun
-__This module is part of [Async iterable fun](https://github.com/parro-it/ai-fun), a complete toolset of modules to work with async iterables.__
+> **_This module is part of
+> [Async iterable fun](https://github.com/parro-it/ai-fun), a complete toolset
+> of modules to work with async iterables._**
 
 ## Usage
 
 description of the example
 
 ```js
-const $package_var = require('$package_name');
+import $package_var from '$package_name';
 
-console.log({$package_var});
+for (const item of {$package_var}()) {
+  yield item;
+};
 ```
 
 This will output
@@ -37,11 +39,12 @@ npm install --save $package_name
 
 ## See Also
 
-- [`noffle/common-readme`](https://github.com/noffle/common-readme)
 - [`parro-it/ai-fun`](https://github.com/parro-it/ai-fun)
+- [`noffle/common-readme`](https://github.com/noffle/common-readme)
 
 
 ## License
 
-MIT
+MIT Licensed
+© $current_year $package_author_name
 
