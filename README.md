@@ -39,8 +39,10 @@ npm install --save $package_name
 
 ## See Also
 
-- [`parro-it/ai-fun`](https://github.com/parro-it/ai-fun)
-- [`noffle/common-readme`](https://github.com/noffle/common-readme)
+- [`parro-it/ai-fun`](https://github.com/parro-it/ai-fun) - A collection of modules to easy deal with async iterables.
+
+- [`noffle/common-readme`](https://github.com/noffle/common-readme) - « a common readme for node ».
+
 
 
 ## License
