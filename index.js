@@ -1,5 +1,8 @@
-export default async function aiTap(data) {
-  for (const item of data) {
-    await item;
-  }
-}
+import map from "ai-map";
+export default func =>
+  map.with(item => {
+    try {
+      func(item);
+    } catch (err) {}
+    return item;
+  });
