@@ -2,23 +2,14 @@ import test from "tape-async";
 import tap from ".";
 import map from "ai-map";
 import compose from "compose-function";
-
-const awaitIterable = async iterable => {
-  const generator = iterable[Symbol.asyncIterator] || iterable[Symbol.iterator];
-  const iterator = generator.call(iterable);
-  let item = {};
-  while (!item.done) {
-    item = await iterator.next();
-  }
-};
+import aiAwait from "ai-await";
 
 test("exports a function", async t => {
   const data = [];
-
   const double = map.with(n => n * 2);
   const add2 = map.with(n => n + 2);
   const calculate = compose(
-    awaitIterable,
+    aiAwait,
     tap(item => data.push(item)),
     add2,
     tap(item => data.push(item)),

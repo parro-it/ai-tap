@@ -41,6 +41,7 @@
   },
   "devDependencies": {
     "@std/esm": "^0.18.0",
+    "ai-await": "^0.1.0",
     "ai-map": "^1.2.0",
     "compose-function": "^3.0.3",
     "documentation": "^5.3.3",
